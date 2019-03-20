@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Event2.css">
+    <link rel="shortcut icon" href="logo.png" />
+    <title>EVENTS</title>
+</head>
+<body   onload="myFunction()"  >
+   <div id="bg">
+       <span id="hh" >EVENTS</span>
+        <div id="loader" ></div>
+   </div>
+     <div  class="mySlides fade" id="mydiv" >
+             </div>  
+     <div  class="mySlides fade" id="mydiva" >
+
+        <img class="image" src="consulting.png" >
+        <p class="desc" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+
+
+        <a id="ab" class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+
+
+     </div>
+
+
+     <div class="mySlides fade" id="mydivb">
+        
+                <img class="image" src="consulting.png" >
+                <p class="desc" >Note that by “must read”, we may not specifically mean the particular linked article only, but also other works from the same authors, who have been regular bloggers over the past years and never failed to produce new interesting content!
+                  Brian makes good points about why it would not be a good idea for Java to become just as “modern” as quickly as other languages. A must-watch for every Java developer (around 1h)
+
+</p>
+        
+     <a id="aa" class="prev" onclick="plusSlides(-1)">&#10094;</a>
+     <a id="ac" class="next" onclick="plusSlides(1)">&#10095;</a>
+     
+        
+        
+     </div>
+
+     <div class="mySlides fade" id="mydivc">
+                
+        <img class="image" src="consulting.png" >
+            <p class="desc" >
+              invokedynamic is only a small, “high level” puzzle piece in the advanced trickery performed by the JVM. What really happens under the hood when you call methods? How are they resolved, optimised by the JIT? Aleksey’s article sub-title reveals what the article is really about:</p>
+                
+                
+                
+     <a id="ad" class="prev" onclick="plusSlides(-1)">&#10094;</a>
+     <a id="ae" class="next" onclick="plusSlides(1)">&#10095;</a>
+     
+                
+                
+     </div>
+
+    <div class="mySlides fade" id="mydivd">
+            
+            <img class="image" src="consulting.png" >
+            <p class="desc" >When Aleksey has introduced us to some performance semantics in the JVM, Peter takes this one step further, talking about low latency in Java 8. We could have picked many other useful little blog posts from Peter’s blog, which is all about low-latency, high performance computing on the JVM, sometimes even doing advanced off-heap trickery.
+
+Read Peter’s “Java Lambdas and Low Latency“
+        </p>
+            
+            
+            
+            
+     <a id="af" class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    
+     
+            
+    </div>
+
+
+
+
+
+<div id="hhh" style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  
+</div>
+ 
+ <script>
+   
+   var myVar;
+                
+    function myFunction() {
+                    myVar = setTimeout(showPage, 1500);
+     }
+   
+     function showPage() {
+                  document.getElementById("bg").style.display = "none";
+                  document.getElementById("loader").style.display = "none";
+                  document.getElementById("hh").style.display = "none";
+                  document.getElementById("hhh").style.display = "block";
+                  document.getElementById("mydiva").style.display = "block";
+                  document.getElementById("aa").style.display = "block";
+                  document.getElementById("ab").style.display = "block";
+
+
+    
+     }
+     var slideIndex = 1;
+     
+  
+showSlides(slideIndex);
+
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+  
+  }
+
+function currentSlide(n) {
+  showSlides(slideIndex = n+1);
+}
+
+function showSlides(n) {
+  var i ; 
+  
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+
+  if (n > slides.length) {slideIndex = 2}
+  if (n < 1) {slideIndex = slides.length=5}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex -1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+
+</script> 
+
+
+    
+</body>
+</html>

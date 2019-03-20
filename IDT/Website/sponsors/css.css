@@ -1,0 +1,69 @@
+
+.login100-pic {
+    margin:6% 0% 5% 37% ;
+    width: 316px;
+  }
+  
+  .login100-pic img {
+    max-width: 100%;
+  }
+  
+  @media (max-width: 992px) {
+  
+    .login100-pic {
+      width: 35%;
+    }
+  }
+a{
+    text-decoration: none; 
+    color: #FFD32F;
+}
+.containere{
+    width: 80%; 
+    height: 80%; 
+    margin: 5% 10% 5% 10%;
+
+}
+.main-sp{
+    border-radius: 50px 50px 0px 0px ;
+    background-color: #fff;
+    padding-top: 7%;
+    padding-bottom: 3%;
+    width: 100%;
+    /* height: 800px; */
+    text-align: center;
+    overflow: hidden;
+    height: auto;
+}
+.main-sp>img {
+    width: 29%;
+    /* height: 100px; */
+    height:auto ;
+    margin: 0% 1% 0% 1%;
+}
+#logo2 {
+    display: inline-block;
+    width: 30%;
+    margin: 0%;
+}
+.media-sp{
+    background-color: #fff;
+    border-radius: 0px 0px 50px 50px ;
+    width: 100%; 
+    /* height: 350px;    */
+    padding-bottom: 4%;
+    overflow: hidden;
+}
+.media-sp img{
+    width: 100%; 
+    height: auto;
+}
+
+body{
+   
+background: #000000;
+background: -webkit-linear-gradient(-135deg, #000000, #928D8D);
+background: -o-linear-gradient(-135deg, #000000, #928D8D);
+background: -moz-linear-gradient(-135deg, #000000, #928D8D);
+background: linear-gradient(-135deg, #000000, #928D8D);
+}

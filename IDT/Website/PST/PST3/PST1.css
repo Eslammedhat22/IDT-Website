@@ -1,0 +1,77 @@
+.pstBody
+{
+    width:1100px;
+    border: 3px  solid black;
+    background: #d5c4c4;
+    margin:  2% auto;
+    border-radius: 10%;
+    
+}
+.questionsBody
+{
+    margin: 0;
+    padding: 0;
+    
+    
+    
+}
+.nextAndSubmit
+{
+    margin: 0;
+    padding: 0;
+    height: 100px;
+    
+}
+.questions
+{
+    margin: 20px;
+    margin-bottom: 0;
+    padding: 20px;
+    display: none;
+}
+.questions:nth-child(1)
+{
+    display: block;
+}
+.choices
+{
+  margin-right: 3%;
+  display: inline-block;
+  font-size:24px;
+}
+input
+{
+    width: 20px;
+    height: 20px;
+}
+button
+{
+    
+}
+.Next
+{
+    display: none;
+    background-color: #3c3c3c; 
+    border: 2px;
+    border-radius: 10px;
+    color:#d5c4c4 ;
+    text-align: center;
+    margin-left: 80%;
+    font-size: 24px;
+}
+.Next:nth-child(1)
+{
+    display: block;
+}
+#n23
+{
+     margin-left: 45%;
+     width: auto;
+     height: auto;
+}  
+#OUT
+{
+    text-align: center;
+
+   
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>IDT Egypt</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Website/HOME PAGE/home.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="shortcut icon" href="Website/HOME PAGE/Images/logo.png">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<!--///////////////////////////////////////Cover\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->        
+    <div class="cover"><img src="Website/HOME PAGE/Images/cover3.jpg" alt="Cover"></div> 
+<!--//////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
+
+
+<!--///////////////////////////////////Navigation Bar\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->  
+    <nav>
+        <ul>
+            <div id="leftBar">
+                <!-- <a href="../Events/Event2.html">Events</a> -->
+                <a href="#">Events</a>
+                <!-- <a  href="../gallary/gallary.html">Gallery</a> -->
+                <a  href="#">Gallery</a>
+            </div>
+            <div id="logo"><a href="#"><img src="Website/HOME PAGE/Images/logo.png" ></a></div>
+            <div id="rightBar">
+                <a href="Website\AboutUs\AboutUs.html">About us</a>
+                <a href="Website/sponsors/sponsors.html">Sponsors</a>
+            </div>
+        </ul>
+        <div class="handle">
+            <label for="toggle">&#9776; MENU</label>
+        </div>        
+    </nav>
+
+    <script>
+        $('.handle').on('click', function(){
+        $('nav ul').toggleClass('showing');});
+    </script>
+<!--//////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
+
+
+<!--///////////////////////////////////////Buttons\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->  
+    <div id="middle">
+        <div id="buttons">
+            <div class="b" id="Reg">
+                <a class="link" href="Website/register/RegistrationForm.php">
+                    <b><a href="#">Registeration</a></b><br>
+                  <a href="Website/register/RegistrationForm.php">  <img id="img1" src="Website/HOME PAGE/Images/push(1).png"> </a> 
+                </a>
+            </div>              
+
+            <div class="b" id="PST" >
+                    <a class="link" href="Website/login/"> 
+                    <b><a href="Website/login/">PST</a></b><br><br>
+                <a href="Website/login/" >    <img id="img2" src="Website/HOME PAGE/Images/test.png" ></a>   </a>
+            </div> 
+        </div>
+    </div>
+<!--//////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
+     <!--/////////////////////////////////////////// footer \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
+        <div class="footer">
+            <p>Copyrights &copy; IT IDT'18 </p>
+            <div>
+                <a href="https://www.facebook.com/idt.egypt"><i class="fa fa-facebook-official fa-2x fa-inverse" aria-hidden="true"></i></a>
+                <a href="https://www.youtube.com/channel/UCc6IoJNV980IbpGmNxLzdnA"><i class="fa fa-youtube-square fa-inverse fa-2x" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/company/10220348/"><i class="fa fa-linkedin-square fa-inverse fa-2x" aria-hidden="true"></i></a>
+            </div>
+        </div>
+ <!--////////////////////////////////////////// end of footer \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
+   
+</body>
+</html>

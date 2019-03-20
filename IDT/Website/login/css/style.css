@@ -1,0 +1,106 @@
+*{
+    margin: 0 ; 
+    padding: 0; 
+    position:static;
+}
+/* ----------------------------------------------- start form ------------------------------------------------ */
+.container{
+    width:100%;
+    background-image:url(../images/background.jpg);
+    background-size: cover;
+}
+form{
+    text-align: center;
+    padding-top: 13%; 
+}
+.login {
+    width: 48%;
+    margin: 0 auto;
+    height: 600px;
+    background-image:url(../images/04.jpg);
+    background-size:contain;
+    background-repeat: repeat-y;
+    padding: 5% 5%; 
+}
+
+                         /* ------------------- MOBILE INPUT ------------------ */
+
+#mobile-input{
+    width: 100%;
+    height: 61px;
+    margin-bottom: 10%;
+
+}
+#la-input,
+#input{
+    padding-top: 2%;
+    width: 50%;
+    height: 56px;
+    line-height: normal;
+}
+#input{
+    width: 69%;
+}
+ #input:focus {
+    background-color: #fad830;
+    border-radius: 4px;
+    color: black;
+    font-size: 20px; 
+    font-weight: 600
+}
+                            /* ------------------- LOGIN BUTTON ------------------ */
+#home, #submit{
+    background-color: black;
+    color: #FFD430;
+    width: 100%;
+    border: 2px solid #FFD430;
+    font-size: 20px;
+    margin-bottom: 3%;
+}
+#home{
+    padding-right: 17%;
+}
+#home:hover, #submit:hover{
+    background-color: #3f3e38
+}
+
+/* ----------------------------------------------- end form ---------------------------------------------------- */
+
+/* ----------------------------------------------- start footer ------------------------------------------------ */
+.footer{
+    background-color: black;
+    width: 100%; 
+    height: 200px;
+    height: 100px; 
+    color: darkgrey; 
+    overflow: hidden 
+}
+.footer p {
+    width: 56%;
+    float: left;
+    font-size: 1.25em;
+    padding-top: 3%;
+    padding-left: 5%;
+    
+}
+.footer div{ 
+    width: 20%;
+    padding: 3%;
+    float: right; 
+}
+.footer div a{ 
+    float: left; 
+    margin-right: 6%; 
+}
+.footer div a i{
+    color: darkgrey;
+}
+.fa-facebook-official:hover, .fa-linkedin-square:hover{ 
+    color: dodgerblue; 
+    transition: 1s
+}
+.fa-youtube-square:hover{
+     color: red; 
+    transition: 1s
+}
+/* ----------------------------------------------- end footer ------------------------------------------------ */
